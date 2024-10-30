@@ -5,7 +5,7 @@ colorFrom: green
 colorTo: blue
 sdk: gradio
 sdk_version: 5.4.0
-app_file: run.py
+app_file: app.py
 pinned: false
 ---
 <h1 align="center">OmniGen: Unified Image Generation</h1>
