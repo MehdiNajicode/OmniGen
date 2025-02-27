@@ -356,4 +356,9 @@ with gr.Blocks() as demo:
     )
 
 # 启动应用
-demo.launch()
+demo.launch(share=True, inbrowser=False, enable_queue=True)
+
+# جلوگیری از قطع شدن اجرای برنامه در Colab
+import time
+while True:
+    time.sleep(100)
